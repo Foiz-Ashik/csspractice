@@ -1,0 +1,28 @@
+
+body {
+    background-color: aqua;
+}
+table {
+    width: 1000px;
+    
+}
+
+th { 
+    text-align: middle;
+}
+
+table, th, td {
+    border: 1px solid#000;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+}
+tr:nth-child(even) {
+    background-color: #ddd;
+}
